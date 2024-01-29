@@ -11,6 +11,7 @@ public class EvenOrOddNumbers {
         Scanner scan=new Scanner( System.in);
         number=scan.nextInt();
         scan.close();
+        
         remaider=number%2;
         
         if(remaider==0)

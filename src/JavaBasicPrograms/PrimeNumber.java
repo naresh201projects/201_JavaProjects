@@ -6,6 +6,8 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		
+		PrimeNumber prim=new PrimeNumber();
+		
 		Scanner scanner = new Scanner(System.in);
 		
         // Input a number from the user
@@ -19,8 +21,7 @@ public class PrimeNumber {
             System.out.println(number + " is not a prime number.");
         }
 
-        // Close the scanner
-        scanner.close();
+        prim.generatePrimeNum(number);
     }
 
     // Function to check whether a number is prime
@@ -37,5 +38,31 @@ public class PrimeNumber {
         }
 
         return true; // If no factors are found, the number is prime
+    }
+    
+    public void generatePrimeNum(int EnterNum) {
+    	
+    	boolean isPrime;
+		
+    	System.err.println("Prime numbers upto.."+EnterNum);
+		for (int i=2; i<=EnterNum;i++) {
+			
+			isPrime = true;
+			for (int k =2; k<i;k++) {
+				
+				if(i%k ==0) {
+					isPrime = false;
+					break;
+				}
+				
+			}
+			
+			if (isPrime) {
+			//	System.out.println("Prime numbers :");
+				System.out.print(i+",");
+			}
+			
+		}
+		System.out.println();
     }
 }
