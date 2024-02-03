@@ -1,49 +1,52 @@
 package JavaBasicPrograms;
 
+import PracticePrograms.PracticeClass;
+
 public class PyramidTriangle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		PyramidTriangle pt = new PyramidTriangle();
+		// Scanner scanner = new Scanner(System.in);
+		// scanner.nextInt();
 
-	//	pt.RightAngleTriangle();
-	//	pt.ReverseTriangle();
+		PyramidTriangle c=new PyramidTriangle();
 		
-		pt.OppRightAngleTriangle();
+		c.Triangle(6);
+		
 	}
-
-	public void RightAngleTriangle() {
-
-		for (int i = 1; i <= 6; i++) {
-			for (int j = 1; j <= i; j++) {
-
-				System.out.print(" * ");
+	
+	public void Triangle(int num) {
+		
+		for (int i=1;i<=num;i++ ) {
+			
+			for(int j=i;j<=num;j++) {
+				System.out.print(" ");
 			}
-			System.out.println();
-		}
-	}
-
-	public void ReverseTriangle() {
-
-		for (int i = 1; i <= 6; i++) {
-			for (int j = 6; j >= i; j--) {
-
-				System.out.print(" * ");
+			for(int k=1;k<i;k++) {
+				System.out.print("*");
 			}
-			System.out.println();
-		}
-	}
-	public void OppRightAngleTriangle() {
-
-		for (int i = 1; i <= 6; i++) {
-			for (int j = 6; j >= i; j--) {
-
-				System.out.print("  ");
+			for(int m=1;m<=i;m++) {
+				System.out.print("*");
 			}
-			System.out.print(" * ");
-			System.out.println();
+			
+			System.out.print("\n");
 		}
-
+		for (int i=1;i<=num;i++ ) {
+			
+			for(int j=1;j<=i;j++) {
+				 System.out.print(" ");
+			}
+			for(int k=num;k>=i;k--) {
+				System.out.print("*");
+			}
+			for(int m=i; m<num;m++) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
+			
+			
+		}
+		
 	}
 }

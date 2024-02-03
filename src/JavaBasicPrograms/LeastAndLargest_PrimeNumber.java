@@ -8,7 +8,7 @@ public class LeastAndLargest_PrimeNumber {
 		LeastAndLargest_PrimeNumber prime = new LeastAndLargest_PrimeNumber();
 
 		int leastNum = 7;
-		int largesrnum = 45;
+		int largesrnum = 50;
 		int leastPrim = prime.findLeastPrime(leastNum, largesrnum);
 		int largestPrime = prime.findLargestPrime(leastNum, largesrnum);
 
@@ -57,3 +57,5 @@ public class LeastAndLargest_PrimeNumber {
 		return true;
 	}
 }
+
+
