@@ -21,5 +21,4 @@ public class MultiplicationTable {
 			System.out.print("\n");
 		}
 	}
-
 }

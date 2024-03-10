@@ -1,7 +1,5 @@
 package JavaBasicPrograms;
 
-import PracticePrograms.PracticeClass;
-
 public class PyramidTriangle {
 
 	public static void main(String[] args) {
