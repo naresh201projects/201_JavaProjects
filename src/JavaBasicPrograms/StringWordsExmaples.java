@@ -10,9 +10,9 @@ public class StringWordsExmaples {
 		StringWordsExmaples words = new StringWordsExmaples();
 		
 		words.StringReverseWords();
-		words.StringWordsCount();
+		words.StringCharCount();
 	}
-	public void StringWordsCount() {
+	public void StringCharCount() {
 		String word="Test value test";
 		
 		int count=0;
@@ -42,20 +42,7 @@ public class StringWordsExmaples {
 		}
 		
 		System.out.println("After Reverse: "+reverseWords);
-	}
 	
-	public void count_Letters_Digits() {
-		
-		String name ="testA2B 2024";
-		
-		for(int i=1; i<=name.length();i++) {
-			
-			
-			
-			if(name.charAt(i)=='0') {
-				
-			}
-		}
 	}
 	
 }

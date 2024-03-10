@@ -8,7 +8,7 @@ public class removeExtraSpaces {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String input = " Try   to remove @       ExtraSpaces ";
+		String input = " Try       to remove @       ExtraSpaces ";
 		
 		StringTokenizer substr = new StringTokenizer(input," ");
 		
@@ -27,7 +27,7 @@ public class removeExtraSpaces {
 	}
 	public void removeSpacesM1() {
 		
-		String inputString="Test to remove     spaces another           method  ... ";
+		String inputString="Test     to remove     spaces another           method  ... ";
 		
 		String oupuString = inputString.replaceAll("\s+", " ");
 		

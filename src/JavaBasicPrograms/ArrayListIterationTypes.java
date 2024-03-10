@@ -47,8 +47,9 @@ public class ArrayListIterationTypes {
 		}	
 		System.out.println();
 		
-		// By Sreams lamda function - JDK 8 -----------------------------
+		// By Streams lamda function - JDK 8 -----------------------------
 		list.stream().forEach(variable->System.out.print(variable+" & "));
+		
 		
 		System.out.println();
 		System.out.println("=================================");
@@ -56,14 +57,15 @@ public class ArrayListIterationTypes {
 		//Iterator --------------------------------
 		Iterator<String> it = list.iterator();
 		
+		Iterator iterator = list.iterator();
+	
 		while(it.hasNext()) {
 			
 			System.out.print(it.next()+" : ");
 		}
-	System.out.println();
+			System.out.println();
 		
 		//list with other collection
-		
 		
 		ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(10,20,30,33));
 		

@@ -10,7 +10,7 @@ public class WordCountStringByHashMap {
 
 		WordCountStringByHashMap hm = new WordCountStringByHashMap();
 		
-		String str = "the  Count the num by Using HashMap";
+		String str = "the  Count The num by Using HashMap";
 	//	System.out.println(str.length());
 		
 		HashMap<String , Integer> Map = new HashMap<String,Integer>();

@@ -22,7 +22,7 @@ public class LeapYearCheck {
 				break;
 
 			} else {
-				System.out.println(year + " is not Leap Year Enter Again: ");
+				System.out.println(year + " is not Leap Year"+"\nEnter Again: ");
 				
 				year = sc.nextInt();
 			}

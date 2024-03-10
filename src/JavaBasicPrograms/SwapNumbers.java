@@ -11,8 +11,8 @@ public class SwapNumbers {
 	}
 	public void swap() {
 		
-		int num1 =11;
-		int num2 =291;
+		int num1 =10;
+		int num2 =20;
 		
 System.out.println("Before Swap:");
 		System.out.println("num1: "+num1);

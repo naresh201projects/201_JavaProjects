@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Factorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Ex: 5! = 5*4*3*2*1 =120
 
 		Scanner scanner  = new Scanner(System.in);
 		
